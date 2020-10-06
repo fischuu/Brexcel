@@ -16,7 +16,7 @@ library("Brexcel")
 brexcelfy()
 ```
 
-and all data frames and matrices in your current environment will be adjusted to
+and all data frames and matrices in your global environment will be adjusted to
 emulate Public Health England (PHE) data handling with Excel (i.e. truncate them
 to 65,536 rows and 255 columns (`version="Excel2003"`)). 
 
