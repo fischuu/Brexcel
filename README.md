@@ -5,12 +5,14 @@ An R-package to create Public Health England data errors
 To install, run 
 
 ```
-
+library("devtools")
+install_github("fischuu/Brexcel", ref="main")
 ```
 
 and then, just type
 
 ```
+library("Brexcel")
 brexcelfy()
 ```
 
