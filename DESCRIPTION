@@ -1,5 +1,5 @@
 Package: Brexcel
-Title: An R-package to create Public Health England data errors
+Title: An R-package to emulate Public Health England data handling
 Version: 0.1
 Authors@R: 
     person(given = "Daniel",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "daniel.fischer@luke.fi",
            comment = structure("0000-0002-7513-683X", .Names = "ORCID"))
-Description: This package adjusts all data frames and matrices in your current environment such that the Public Health England (PHE) data handling with Excel is emulated (i.e. truncate them to 65,536 rows and 255 columns).
+Description: This package adjusts all data frames and matrices in your current environment such that the Public Health England (PHE) data handling with Excel is emulated (i.e. truncate them).
 License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
