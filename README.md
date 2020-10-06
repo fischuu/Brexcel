@@ -1,5 +1,5 @@
 # Brexcel
-An R-package to create Public Health England data errors
+An R-package to create Public Health England data handling
 
 # Usage
 To install, run 
